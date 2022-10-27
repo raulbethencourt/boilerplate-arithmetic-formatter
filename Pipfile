@@ -9,7 +9,6 @@ pytest = "*"
 pyright = "*"
 black = "*"
 typing = "*"
-var-dump = "*"
 
 [dev-packages]
 neovim = "*"
