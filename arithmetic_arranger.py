@@ -8,7 +8,6 @@ def arithmetic_arranger(problems, get_anwsers=False):
     if nb_problems > 5:
         return "Error: Too many problems."
     else:
-        __import__('pprint').pprint(problems)
         for problem in problems:
             first_nb = problem.split()[0]
             second_nb = problem.split()[2]
